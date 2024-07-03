@@ -17,6 +17,7 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    'gatsby-plugin-mdx',
   ],
   // plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
   //   resolve: 'gatsby-plugin-manifest',
