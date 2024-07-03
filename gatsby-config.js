@@ -6,6 +6,7 @@ module.exports = {
     title: `my-first-gatby-site`,
     siteUrl: `https://www.yourdomain.tld`,
   },
+  plugins: ['gatsby-plugin-image', 'gatsby-plugin-sharp'],
   // plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
   //   resolve: 'gatsby-plugin-manifest',
   //   options: {

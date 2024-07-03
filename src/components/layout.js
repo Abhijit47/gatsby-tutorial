@@ -1,8 +1,10 @@
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import {
   container,
   heading,
+  nav,
   navLinkItem,
   navLinks,
   navLinkText,
@@ -11,7 +13,17 @@ import {
 export default function Layout({ pageTitle, children }) {
   return (
     <div className={container}>
-      <nav>
+      <nav className={nav}>
+        <Link to={'/'}>
+          <div>
+            <StaticImage
+              src='../images/icon.png'
+              alt='a image'
+              className={''}
+              style={{ width: '2rem', height: '2rem' }}
+            />
+          </div>
+        </Link>
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to={'/'} className={navLinkText}>

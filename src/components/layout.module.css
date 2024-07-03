@@ -4,6 +4,14 @@
   font-family: sans-serif;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
 .heading {
   color: rebeccapurple;
 }
